@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wulisupreme.github.io/</id>
     <title>Supreme&apos;s blog</title>
-    <updated>2020-01-08T10:44:44.102Z</updated>
+    <updated>2020-05-26T19:04:25.908Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wulisupreme.github.io/"/>
     <link rel="self" href="https://wulisupreme.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, Supreme&apos;s blog</rights>
     <entry>
         <title type="html"><![CDATA[Hello World]]></title>
-        <id>https://wulisupreme.github.io/post/hello-world</id>
-        <link href="https://wulisupreme.github.io/post/hello-world">
+        <id>https://wulisupreme.github.io/post/hello-world/</id>
+        <link href="https://wulisupreme.github.io/post/hello-world/">
         </link>
         <updated>2020-01-08T10:41:12.000Z</updated>
         <content type="html"><![CDATA[<p>折腾了半天，终于建好了一个属于自己的博客🤗</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://wulisupreme.github.io/post/hello-gridea</id>
-        <link href="https://wulisupreme.github.io/post/hello-gridea">
+        <id>https://wulisupreme.github.io/post/hello-gridea/</id>
+        <link href="https://wulisupreme.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
