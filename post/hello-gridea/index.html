@@ -12,12 +12,20 @@
 <script src="https://wulisupreme.github.io//media/js/aos.js"></script>
 <script src="https://wulisupreme.github.io//media/js/pace.min.js"></script>
 <script src="https://wulisupreme.github.io//media/js/view-image.min.js"></script>
+<script src="https://wulisupreme.github.io//media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://wulisupreme.github.io//media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="👏  欢迎使用 Gridea ！
+✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
+
+Github
+Gridea 主页
+示例网站
+特性👇
+📝  你可以使用最酷的 Markdo..." />
+    <meta name="keywords" content="Gridea" />
     <script src="https://wulisupreme.github.io//media/js/waterfall.min.js"></script>
     <script src="https://wulisupreme.github.io//media/js/prism.min.js"></script>
-    
-      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
-    
   </head>
   <body>
             <header id="header" class="grid-container">
@@ -28,15 +36,13 @@
         <div class="menu-wrapper">
           <div class="">
             <div class="logo">
-              <a href="https://wulisupreme.github.io/"><img src="https://wulisupreme.github.io//media/images/logoo.png" alt=""></a>
+              <a href="https://wulisupreme.github.io/"><img src="" alt=""></a>
             </div>
             <!-- start: .main-nav -->
 
             <nav class="main-nav grid-container grid-parent">
               <ul id="menu-header" class="menu gradient-effect">
-                
-                  <li class=""><a href="https://wulisupreme.github.io/" class="menu">首页</a></li>
-                
+                <li class=""><a href="https://wulisupreme.github.io/" class="menu">首页</a></li>
                 
                   <li class="" >
                     <a href="/archives" class="menu">
@@ -56,8 +62,10 @@
                     </a>
                   </li>
                 
+                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
               </ul>
             </nav>
+            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
             <!-- end: .main-nav -->
             <div class="clear"></div>
             <div class="border hide-on-tablet hide-on-mobile"></div>
@@ -67,6 +75,18 @@
         <!-- end: .menu-wrapper -->
         <div class="clear"></div>
       </header>
+      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
+        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
+          <div class="search-wrapper section">
+            <form id="gridea-search-form" data-update="1590521099716" action="/search/index.html" class="search-form" _lpchecked="1">
+              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
+              <button type="submit" class="submit" aria-label="Submit">
+                <i class="fa fa-search-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
 
       <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
@@ -74,12 +94,12 @@
           <div class="featured-image cover" style="background-image: url('https://wulisupreme.github.io//post-images/hello-gridea.png');">
             <div class="meta top"> 
               <time class="meta-info" style="float:left;" datetime="2018-12-12"><i class="fa fa-calendar"></i><span class="lately">1 年前</span></time>
-               
-               
-               <span id="/post/hello-gridea/" class="leancloud_visitors views-counter meta-info">
-                <i class="fa fa-leancloud"></i><span class="leancloud-visitors-count" style="vertical-align: middle;">0</span>
-               </span>
-               
+              
+              <a href="https://wulisupreme.github.io/post/hello-gridea/#comments" class="comments meta-info" title="">
+                <i class="fa fa-comment remixicon"></i><span class="comment-count valine-comment-count" data-xid="/hello-gridea/"> </span>
+              </a>
+              <span id="/hello-gridea/" class="leancloud_visitors views-counter meta-info" title=""><i class="fa fa-leancloud remixicon"></i><span class="leancloud-visitors-count"></span></span>
+              
             </div>
             <div class="info">
               <div class="tags ">
@@ -146,18 +166,17 @@
             </section>
 
               <div class="clear"></div>
-
-              <div id="comments" class="bg-white hosted ">
-
               
+            
+              <div id="comments" class="bg-white hosted ">
                 
                   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
 <div id="gitalk-container"></div>
+<div class="clear"></div>
 
 <script>
-
   var gitalk = new Gitalk({
     clientID: '957fcf581e7547237eec',
     clientSecret: 'bdc24795dcca1fe1c95d2da32ed4f832e2c56be9',
@@ -169,16 +188,13 @@
   })
 
   gitalk.render('gitalk-container')
-
 </script>
 
                 
                 
-              
-                <div class="clear"></div>
               </div>
+            
 
-              <div class="clear"></div>
             </div>
           </div>
       </main>
@@ -193,7 +209,7 @@
                   
                   <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
                     <a href="https://wulisupreme.github.io/post/zi-ji-de-yi-dian-xiao-gan-xiang/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display: block;background-image: url('https://wulisupreme.github.io//media/images/LhpQ1Cp61.jpg');"></span>
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
                     </a>
                     <div class="info gradient-effect">
                       <time datetime="2020-05-27">2020-05-27</time>
@@ -208,7 +224,7 @@
                   
                   <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
                     <a href="https://wulisupreme.github.io/post/hello-world/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display: block;background-image: url('https://wulisupreme.github.io//post-images/hello-world.png');"></span>
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://wulisupreme.github.io//post-images/hello-world.png');"></span>
                     </a>
                     <div class="info gradient-effect">
                       <time datetime="2020-01-08">2020-01-08</time>
@@ -223,7 +239,7 @@
                   
                   <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
                     <a href="https://wulisupreme.github.io/post/about/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display: block;background-image: url('https://wulisupreme.github.io//media/images/gridea.jpg');"></span>
+                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('');"></span>
                     </a>
                     <div class="info gradient-effect">
                       <time datetime="2019-01-25">2019-01-25</time>
@@ -291,7 +307,7 @@
         </div>
 
         <div class="logo">
-          <a href="https://wulisupreme.github.io/"><img class="" src="https://wulisupreme.github.io//media/images/logo.png" alt=""></a>
+          <a href="https://wulisupreme.github.io/"><img src="" alt=""></a>
         </div>
         <p class="published border-effect">
           ©2019 共 4 篇文章
@@ -303,50 +319,26 @@
           <i class="fa fa-arrow"></i>
         </a>
     </footer>
+    
     <div class="clear"></div>
 
-      <script type="text/javascript">
-       jQuery(document).ready(function($){
-          $("photos img").each(function(){
-              var _a = $("<a></a>").attr("href",this.src);
-              $(this).wrap("<div class='photo'></div>").wrap(_a);
-          })
-          $("figure img").each(function(){
-              var _b = $("<a></a>").attr("href",this.src);
-              $(this).wrap(_b);
-          })
-          isImgLoad(function(){
-            var photos = document.querySelector('photos');
-            if(photos){
-              waterfall(photos);
-            }
-            $(window).resize(function() {
-             if(photos){
-                  waterfall(photos);
-            }
-          });
-        });
-        var t_img;
-        var isLoad = true;
-        function isImgLoad(callback){
-          $('photos img').each(function(){
-            if(this.height === 0){
-              isLoad = false;
-              return false;
-            }
-          });
-          if(isLoad){
-            clearTimeout(t_img);
-            callback();
-          }else{
-            isLoad = true;
-            t_img = setTimeout(function(){
-              isImgLoad(callback);
-            },500);
-          }
-        }
-      });
-      </script>
+        
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/valine/1.3.10/Valine.Pure.min.js"></script>
+<script>
+    new Valine({
+        el: '#comments',
+        appId: '957fcf581e7547237eec' ,
+        appKey: 'bdc24795dcca1fe1c95d2da32ed4f832e2c56be9',
+        pageSize: 30,
+        placeholder: '既然来了，那就留个痕迹吧~',
+        visitor: true // 阅读量统计
+    })
+</script>
+    
+
+      
+    <script src="https://wulisupreme.github.io//media/js/functions-post.js"></script>
 
     </div>
     <!-- end: #wrapper -->
